@@ -7,7 +7,7 @@ contract Accounts { //definovanie contractu, podobné ako definovanie class v ja
 
   struct Account { //tu sme si definovali objekt
     bytes32 firstName; //ku každému property objektu sme si definovali aj dátový typ
-    bytes32 lastName; //čiže byte32 ukladá len max dáta dlhé max 32 bytov.
+    bytes32 lastName; //čiže byte32 ukladá len znaky spolu dlhé max 32 bytov.
     uint age; //ukladá dátový typ integer
   }
 
